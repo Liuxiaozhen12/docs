@@ -14,6 +14,9 @@ aliases:
   - '/docs/dev/how-to/get-started/deploy-tidb-from-homebrew/'
   - '/tidb/dev/production-offline-deployment-using-tiup'
   - '/docs/dev/production-offline-deployment-using-tiup/'
+  - '/tidb/dev/deploy-tidb-from-binary'
+  - '/tidb/dev/production-deployment-from-binary-tarball'
+  - '/tidb/dev/test-deployment-from-binary-tarball'
 ---
 
 # Deploy a TiDB Cluster Using TiUP
