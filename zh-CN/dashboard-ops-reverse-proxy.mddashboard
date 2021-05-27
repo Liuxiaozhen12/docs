@@ -38,16 +38,16 @@ http://192.168.0.123:2379/dashboard/
 > {{< copyable "shell-regular" >}}
 > 
 > ```bash
-tiup update --self
-tiup update cluster --force
-```
-
-</details>
+> tiup update --self
+> tiup update cluster --force
+> ```
+> 
+> </details>
 
 ### Step 2: Configure the reverse proxy
 
-<details mark="crwd-mark">
-<summary mark="crwd-mark"> <strong>Use HAProxy</strong> </summary>
+<details>
+<summary> <strong>Use HAProxy</strong> </summary>
 
 When you use [HAProxy](https://www.haproxy.org/) as the reverse proxy, take the following steps:
 
