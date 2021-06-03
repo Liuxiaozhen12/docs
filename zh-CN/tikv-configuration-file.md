@@ -1004,7 +1004,7 @@ Configuration items related to `rocksdb.defaultcf`
 ### `soft-pending-compaction-bytes-limit`
 
 + The soft limit on the pending compaction bytes
-+ Default value: `"64GB"`
++ Default value: `"192GB"`
 + Unit: KB|MB|GB
 
 ### `hard-pending-compaction-bytes-limit`
