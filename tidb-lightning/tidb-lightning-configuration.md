@@ -124,7 +124,7 @@ addr = "172.16.31.10:8287"
 #    inconsistent data in the target TiDB.
 #  - remove: records all duplicate records like the 'record' algorithm and remove all duplicate records to ensure a consistent
 #    state in the target TiDB.
-# duplicate-resolution = 'record'
+# duplicate-resolution = 'none'
 # The number of KV pairs sent in one request in the "local" backend.
 # send-kv-pairs = 32768
 # The directory of local KV sorting in the "local" backend. If the disk
@@ -201,14 +201,16 @@ strict-format = false
 # max-region-size = 268_435_456 # Byte (default = 256 MB)
 
 # Only import tables if these wildcard rules are matched. See the corresponding section for details.
-filter = ['*.*']
+filter = ['*.*', '!mysql.*', '!sys.*', '!INFORMATION_SCHEMA.*', '!PERFORMANCE_SCHEMA.*', '!METRICS_SCHEMA.*', '!INSPECTION_SCHEMA.*']
 
 # Configures how CSV files are parsed.
 [mydumper.csv]
-# Separator between fields, should be an ASCII character.
+# Separator between fields. Must not be empty.
 separator = ','
-# Quoting delimiter, can either be an ASCII character or empty string.
+# Quoting delimiter. Empty value means no quoting.
 delimiter = '"'
+# Line terminator. Empty value means both "\n" (LF) and "\r\n" (CRLF) are line terminators.
+terminator = ''
 # Whether the CSV files contain a header.
 # If `header` is true, the first line will be skipped.
 header = true
