@@ -196,13 +196,14 @@
     + [Overview](/tidb-lightning/tidb-lightning-overview.md)
     + [Tutorial](/get-started-with-tidb-lightning.md)
     + [Deploy](/tidb-lightning/deploy-tidb-lightning.md)
-    + [Precheck](/tidb-lightning/tidb-lightning-prechecks.md)   
+    + [Precheck](/tidb-lightning/tidb-lightning-prechecks.md)
     + [Configure](/tidb-lightning/tidb-lightning-configuration.md)
     + Key Features
       + [Checkpoints](/tidb-lightning/tidb-lightning-checkpoints.md)
       + [Table Filter](/table-filter.md)
       + [CSV Support](/tidb-lightning/migrate-from-csv-using-tidb-lightning.md)
       + [Backends](/tidb-lightning/tidb-lightning-backends.md)
+      + [Error Resolution](/tidb-lightning/tidb-lightning-error-resolution.md)
       + [Web Interface](/tidb-lightning/tidb-lightning-web-interface.md)
     + [Monitor](/tidb-lightning/monitor-tidb-lightning.md)
     + [FAQ](/tidb-lightning/tidb-lightning-faq.md)
@@ -564,8 +565,9 @@
 + [Glossary](/glossary.md)
 + Release Notes
   + [All Releases](/releases/release-notes.md)
+  + [Release Timeline](/releases/release-timeline.md)
   + v5.2
-    + [5.2.2](/releases/release-5.2.2.md)  
+    + [5.2.2](/releases/release-5.2.2.md)
     + [5.2.1](/releases/release-5.2.1.md)
     + [5.2.0](/releases/release-5.2.0.md)
   + v5.1
