@@ -205,7 +205,6 @@
       + [Table Filter](/table-filter.md)
       + [CSV Support](/tidb-lightning/migrate-from-csv-using-tidb-lightning.md)
       + [Backends](/tidb-lightning/tidb-lightning-backends.md)
-      + [Error Resolution](/tidb-lightning/tidb-lightning-error-resolution.md)
       + [Web Interface](/tidb-lightning/tidb-lightning-web-interface.md)
     + [Monitor](/tidb-lightning/monitor-tidb-lightning.md)
     + [FAQ](/tidb-lightning/tidb-lightning-faq.md)
@@ -438,6 +437,7 @@
       + [Configuration](/garbage-collection-configuration.md)
     + [Views](/views.md)
     + [Partitioning](/partitioned-table.md)
+    + [Temporary Tables](/temporary-table.md)
     + [Character Set and Collation](/character-set-and-collation.md)
     + [Placement Rules in SQL](/placement-rules-in-sql.md)
     + System Tables
@@ -497,6 +497,7 @@
       + Maintain
         + [Deploy](/dashboard/dashboard-ops-deploy.md)
         + [Reverse Proxy](/dashboard/dashboard-ops-reverse-proxy.md)
+        + [User Management](/dashboard/dashboard-user.md)
         + [Secure](/dashboard/dashboard-ops-security.md)
       + [Access](/dashboard/dashboard-access.md)
       + [Overview Page](/dashboard/dashboard-overview.md)
