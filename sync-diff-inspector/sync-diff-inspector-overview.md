@@ -10,7 +10,7 @@ aliases: ['/docs/dev/sync-diff-inspector/sync-diff-inspector-overview/','/docs/d
 
 This guide introduces the key features of sync-diff-inspector and describes how to configure and use this tool. To download sync-diff-inspector, use one of the following methods:
 
-+ Binary package. Click [tidb-enterprise-tools-nightly-linux-amd64](https://download.pingcap.org/tidb-enterprise-tools-nightly-linux-amd64.tar.gz) to download.
++ Binary package. Click [tidb-community-toolkit-v5.2.2-linux-amd64](https://download.pingcap.org/tidb-community-toolkit-v5.2.2-linux-amd64.tar.gz) to download.
 + Docker image. Execute the following command to download:
 
     {{< copyable "shell-regular" >}}
